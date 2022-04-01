@@ -32,7 +32,7 @@ setInterval(() => {
 ## Chrome extension
 스크럼포커 사이트 방문시마다 위 스크립트를 매번 수행하는 것은 귀찮다면 아래와 같이 크롬익스텐션을 활용할 수 있다.
 
-https://github.com/min9nim/my-scrumpoker/issues/1
+![https://github.com/min9nim/my-scrumpoker/issues/2](https://github.com/min9nim/my-scrumpoker/issues/2)
 
 
 
