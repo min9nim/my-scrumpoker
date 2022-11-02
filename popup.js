@@ -13,6 +13,11 @@ btn.addEventListener("click", async () => {
 // The body of this function will be executed as a content script inside the
 // current page
 function setPoints() {
+  // document.querySelector('#dkHead')?.remove()
+  document.querySelector('.area_menu')?.remove()
+  var dom = document.querySelector('#dkHead')
+  dom?.setAttribute('style', 'background-color: rgba(255,255,255,.45);border-bottom: 0')
+
   setInterval(() => {
     document.querySelectorAll('table.mat-table div').forEach(item => {
       if (item.innerHTML === ' 0 ') {
@@ -33,5 +38,6 @@ function setPoints() {
       }
     })
   }, 100)
+
 
 }
