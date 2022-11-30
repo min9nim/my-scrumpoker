@@ -14,13 +14,8 @@ btn.addEventListener("click", async () => {
 // current page
 function setPoints() {
   document.querySelector('.area_menu')?.remove()
-  var dom = document.querySelector('#dkHead')
-  if(dom){
-    dom.style['border-bottom'] = '0'
-    dom.style['background-color'] = 'rgba(255,255,255,.05)'
-    dom.style.left = '-16px'
-  }
-
+  document.querySelector('.area_profile')?.remove()
+  document.querySelector('#dkHead')?.remove()
 
   setInterval(() => {
     document.querySelectorAll('table.mat-table div').forEach(item => {
