@@ -18,7 +18,7 @@ function setPoints() {
   document.querySelector('#dkHead')?.remove()
 
   setInterval(() => {
-    document.querySelectorAll('table.mat-table div').forEach(item => {
+    document.querySelectorAll('table.mat-table div span').forEach(item => {
       if (item.innerHTML === ' 0 ') {
         item.innerHTML = '0.25'
       }
